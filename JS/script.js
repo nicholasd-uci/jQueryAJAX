@@ -8,13 +8,14 @@ $('#search').click(function (event) {
     // Runs when response from the request is successful
     .then(res => {
         console.log(res)
-        $('#movie').html(`
-        <img src="${res.Poster}" alt="${res.Title}">
-        <h2>${res.Title}</h2>
-        <h3>Directed by: ${res.Director}</h3>
-        <p>${res.Plot}</p>
-        <h3><center>Rated</center></h3>
-        <p><center>${res.Metascore}</center></p>
+        $('#movie').html(`s
+
+        <center><img src="${res.Poster}" alt="${res.Title}"></center>
+        <h2><center>Movie Title: ${res.Title}</center></h2>
+        <h3><center>Directed by: ${res.Director}</center></h3>
+        <center><p>Movie Plot: ${res.Plot}</p></center>
+        <h3><center>Movie Rating</center></h3>
+        <h4><center>${res.Metascore}</center></h4>
         
         `)
     })
