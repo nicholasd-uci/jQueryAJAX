@@ -1,5 +1,4 @@
 // Promise Based function
-
 $('#search').click(function (event) {
     event.preventDefault()
     let title = $('#title').val()
