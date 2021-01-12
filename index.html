@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JQuery AJAX</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div id="welcome">
         <h1>Welcome To Movie Search</h1> 
-        <p>powered by JQuery and using an AJAX request to the OMDB API.</p>
+        <p>powered by JQuery and using the AJAX method to request the information you want directly from the OMDB API.</p>
     </div>
 <hr>
-<form>
+<form id="form">
     <p>
         <label for="title">Movie</label>
         <input type="text" name="title" id="title">
@@ -24,11 +25,9 @@
 
     <div id="movie"></div>
     
-
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <!-- script.js -->
     <script src="./JS/script.js"></script>
-
-    
+ 
 </body>
 </html>
