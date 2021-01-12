@@ -1,5 +1,10 @@
 // Promise Based function
-$.ajax('http://www.omdbapi.com/?t=Goodfellas&apikey=11bc5e4c')
+
+$('#search').click(function (event) {
+    event.preventDefault()
+    let title = $('#title').val()
+
+    $.ajax(`http://www.omdbapi.com/?t=${title}&apikey=11bc5e4c`)
     // Runs when response from the request is successful
     .then(res => {
         console.log(res)
@@ -15,5 +20,9 @@ $.ajax('http://www.omdbapi.com/?t=Goodfellas&apikey=11bc5e4c')
     })
     // Runs when request has an error
     .catch(err => { console.log(err) })
+
+})
+
+
 
 
