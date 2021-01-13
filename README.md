@@ -1,7 +1,7 @@
 # jQueryAJAX
 ## utilizing AJAX request to gather information from an API
 
-> In this repository we created a movie app that is powered by jQuery and uses the AJAX method request from OMDbAPI.com. 
+> In this repository we created a movie app that is powered by jQuery and uses the AJAX method request to OMDBAPI.com. 
 
 ## What is an AJAX request? 
 
