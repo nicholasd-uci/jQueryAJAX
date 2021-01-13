@@ -29,7 +29,7 @@
 ## LINKS
 
 - [jQueryAJAX Link](https://nicholasd-uci.github.io/jQueryAJAX/)
-- [Github Repo Link](https://github.com/nicholasd-uci/jQueryAJAX)
+- [GitHub Repo Link](https://github.com/nicholasd-uci/jQueryAJAX)
 - [Nicholas Dallas GitHub](https://github.com/nicholasd-uci)
 
 - - -
