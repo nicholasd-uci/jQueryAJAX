@@ -1,5 +1,5 @@
 # jQueryAJAX
-## utlitiing AJAX request to gather information from an API
+## utilizing AJAX request to gather information from an API
 
 > In this repository we created a movie app that is powered by jQuery and uses the AJAX method retrieval request from OMDbAPI.com. 
 
